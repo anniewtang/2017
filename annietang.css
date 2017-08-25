@@ -130,13 +130,13 @@ a {
 	bottom: -22vw;*/
 }
 
-/*#arrow {
+#arrow {
 	position: absolute;
 	z-index: 2;
 	border: 3px solid green;
 	left: 25%;
 	bottom: -45vh;
-}*/
+}
 
 /*-------------NAV STYLING-------------*/
 .nav {
