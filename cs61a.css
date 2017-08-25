@@ -59,26 +59,7 @@ h2 {
 	font-size: 160%;
 }
 #header {
-	/*border: 3px solid black;*/
 	padding-bottom: 1%;
-}
-#home {
-	position: absolute;
-	/*float: right;*/
-	text-align: right;
-	font-size: 150%;
-	color: black;
-	/*width: 75%;*/
-	top: 14.2%;
-	/*top: 12.9vh;*/
-	/*top: 17.6vh;*/
-	right: 14.7vw;
-	font-weight: bold;
-	color: #3f7f5f;
-	/*border: 3px solid green;*/
-}
-#home:hover {
-	color: #7e9d8f;
 }
 
 a.form {
@@ -98,6 +79,16 @@ a.form:hover {
 	font-size: 150%;
 	/*text-align: right;*/
 	color: #9c9c9c;
+}
+#home {
+	font-size: 120%;
+	font-weight: lighter;
+	color: #9c9c9c;
+	font-variant: small-caps;
+	/*text-decoration: underline;*/
+}
+#home:hover {
+	color: #94b6a7;
 }
 
 #gud-container {
