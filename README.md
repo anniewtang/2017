@@ -1,6 +1,6 @@
 # anniewtang.github.io
-<b>anniewtang.github.io</b> <br>
-personal website — a portfolio with cs61 teaching material
+personal website <br>
+a portfolio with cs61 teaching material
 
 todo: <br>
 1.) make website more responsive <br>
