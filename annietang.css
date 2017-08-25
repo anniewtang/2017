@@ -124,10 +124,10 @@ a {
 	width: 73%;
 	/*border: 3px solid green;*/
 	opacity: .4;
-	/*bottom: -20vw;*/
-	/*right: 6.5vw;*/
-	right: 4.5vw;
-	bottom: -22vw;
+	bottom: -20vw;
+	right: 6.5vw;
+	/*right: 4.5vw;
+	bottom: -22vw;*/
 }
 
 /*#arrow {
