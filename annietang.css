@@ -133,7 +133,7 @@ a {
 #arrow {
 	position: absolute;
 	z-index: 2;
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 	left: 25%;
 	bottom: -45vh;
 }
