@@ -209,6 +209,7 @@ a {
 	width: 63.2%;
 	font-size: 1.5vw;
 	color: #534e4e;
+	z-index: 1;
 }
 .emphasized {
 	font-weight: bold;
