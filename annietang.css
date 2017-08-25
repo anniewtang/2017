@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+/*GENERIC STYLING*/
+* {
+	margin: 0px;
+	padding: 0px;
+	max-width:100%;
+}
+body {
+	font-family: "Calibri", sans-serif;
+	background-color:#ffffff;
+	/*color:#30415d;*/
+	width: 100vw!important;
+	height: 100vh;
+
+}
+
+a {
+	text-decoration: none;
+	color: #6b8c97;
+}
+
+/*-------------GENERIC STYLING-------------*/
+.title {
+	font-family: "Calisto MT", serif;
+	color:#000000;
+	font-size: 5vw;
+	/*font-weight: bold;*/
+}
+
+.container {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.box {
+	/*border: 3px solid green;*/
+	width: 16vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.page {
+	height: 100vh;
+	width: 100vw;
+	/*border: 5px solid #999;*/
+	background-color: #30415d;
+	position: relative;
+	/*z-index: -2;*/
+}
+
+.parent {
+	height: 100vh;
+	width: 100vw;
+	/*background-color: #30415d;*/
+	overflow: hidden;
+}
+
+.pusher {
+	width: 50vw;
+	float: right;
+	background-color: white;
+	position: relative;
+	/*z-index: -2;*/
+}
+
+/*INDEX STYLING*/
+.landing {
+	position: absolute;
+	/*height: 0;*/
+	z-index: 2;
+}
+
+.index {
+	font-family: "Calisto MT", serif;
+	color:#ffffff;
+	font-size: 8vw;
+	font-weight: bold;
+	/*border: 3px solid green;*/
+}
+/*
+.index:hover {
+	color: #000000;
+}*/
+
+/*#landing-header:hover {
+	font-color: black;
+}*/
+
+.landing-bg {
+    color: #fff;
+    background: -webkit-linear-gradient(120deg, #cf5260 50%, #ffffff 50%);
+    background: -o-linear-gradient(110deg, #cf5260 50%, #ffffff 50%);
+    background: -moz-linear-gradient(110deg, #cf5260 50%, #ffffff 50%);
+    background: linear-gradient(120deg, #cf5260 50%, #ffffff 50%);
+}
+
+#landing-A {
+	position: absolute;
+	left: 5%;
+	line-height: 0vw;
+	width: 5.4vw;
+}
+#landing-T:hover{
+	font-color: black;
+}
+#landing-T {
+	position: absolute;
+	left:42%;
+	top: 0.4vw;
+	color: #cf5260;
+	/*line-height: 5.4vw;*/
+	width: 5.4vw;
+}
+
+/*-------------NAV STYLING-------------*/
+.nav {
+	/*background-color: #30415d;*/
+	background-color: transparent;
+	width: 50vw;
+	margin: 0px;
+	padding: 0px;
+	/*border: 3px solid green;*/
+	/*float: left;*/
+	position: fixed;
+	z-index: 1;
+	transition: background-color 2s;
+}
+.box-nav {
+	/*border: 3px solid green;*/
+	width: 16vw;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 5vw;
+}
+.nav a {
+	/*border: 3px solid green;*/
+	font-size: 6vw;
+	color: #ffffff;	
+	text-transform: lowercase;
+	font-family: "Calisto MT", serif;
+}
+.nav ul a:visited {
+	font-weight:bold;
+	font-style: italic;
+}
+
+.nav ul a:hover {
+	font-style: italic;
+}
+.nav ul a:active {
+	font-weight:bold;
+	font-style: italic;
+}
+
+.pseudo {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	/*border: 3px solid green;*/
+	background-color: #30415d;
+	float:right;
+}
+
+/*-------------ABOUT STYLING-------------*/
+
+#about-parent {
+	background-color: #b6a19e;
+}
+
+.about-content {
+	/*border: 3px solid black;*/
+	top:53%;
+	left: 50%;
+	width: 63.2%;
+	font-size: 1.5vw;
+	color: #534e4e;
+}
+.emphasized {
+	font-weight: bold;
+}
+
+.about-pic {
+	width: 100%;
+}
+
+#about-bottom {
+	position: absolute;
+	bottom: 0%;
+}
+
+#about-me {
+	position: absolute;
+}
+
+#about-name {
+	position: absolute;
+	/*border: 3px solid black;*/
+	/*margin-top: 1%;*/
+}
+
+#links-intro {
+	position: absolute;
+	margin-top: 20.8%;
+	right: -1%;
+	/*display: none;*/
+}
+
+#about-links {
+	position: absolute;
+	right: -1%;
+	text-align: right;
+	margin-top: 29.5%;
+	/*display: none;*/
+}
+#about-links a {
+	font-weight: bold;
+	color: #612a23;
+}
+
+#about-links a:hover {
+	color: #bea4a0;
+}
+
+/*-------------PROJECT STYLING-------------*/
+#projects-parent {
+	background-color: #6ec4db;
+}
+#projects-page {
+	background-color: #f4f0ec;
+}
+#box-projects {
+	/*border: 3px solid green;*/
+	/*width: 16vw;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.project-content {
+	font-family: "Calibri", sans-serif;
+	font-size: 1.5vw;
+	/*border: 3px solid black;*/
+	width: 30vw;
+}
+
+#project-msg {
+	font-weight: bold;
+	font-color: #335c82;
+	position: absolute;
+	margin-top: -5%;
+}
+
+#project-resume {
+	font-weight: lighter;
+	font-size: 1.7vw;
+	color: #75819a;
+	position: absolute;
+	/*margin-top:-.1%;*/
+}
+
+#resume-link {
+	color: #3c4b6a;
+	font-style: italic;
+}
+
+#resume-link:hover {
+	color: #a8b4cd;
+}
+
+
+/*-------------TEACHING STYLING-------------*/
+#teaching-parent {
+	background-color: #66ab8c;
+}
+.box-61a {
+	border: 0.3vw solid #3f7f5f;
+	width: 75%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5% 4%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+#teaching-61a {
+	color:#3f7f5f;
+	font-size: 4vw;
+	font-weight: bold;
+}
+#teaching-ugsi {
+	text-transform: uppercase;
+	font-size: 2vw;
+	color: #597567;
+	font-weight: lighter;
+	position: absolute;
+	top: 21%;
+	right: 10%;
+}
+#links {
+	margin-top: -2%;
+}
+#slides {
+	font-size: 1.8vw;
+	color: #f5aa0f;
+}
+#slides:hover {
+	color:#f5500f;
+}
+#teaching-section {
+	margin-top: 3%;
+}
+#section-title {
+	font-size: 2vw;
+	color: #3f7f5f;
+}
+#section-info {
+	font-size: 1.5vw;
+	color:#597567;
+	line-height: 1.6vw;
+}
