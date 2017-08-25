@@ -70,6 +70,7 @@ a {
 /*INDEX STYLING*/
 .landing {
 	position: absolute;
+	overflow: hidden;
 	/*height: 0;*/
 	z-index: 2;
 }
@@ -115,6 +116,24 @@ a {
 	/*line-height: 5.4vw;*/
 	width: 5.4vw;
 }
+#landing-continue {
+	position: absolute;
+	font-style: italic;
+	font-size: 2vw;
+	color: black;
+	/*border: 3px solid green;*/
+	opacity: .4;
+	bottom: -20vw;
+	right: 6.5vw;
+}
+
+/*#arrow {
+	position: absolute;
+	z-index: 2;
+	border: 3px solid green;
+	left: 25%;
+	bottom: -45vh;
+}*/
 
 /*-------------NAV STYLING-------------*/
 .nav {
@@ -159,6 +178,7 @@ a {
 .nav ul a:hover {
 	font-style: italic;
 }
+
 .nav ul a:active {
 	font-weight:bold;
 	font-style: italic;
@@ -266,6 +286,7 @@ a {
 	font-weight: lighter;
 	font-size: 1.7vw;
 	color: #75819a;
+	/*color: white;*/
 	position: absolute;
 	/*margin-top:-.1%;*/
 }
