@@ -16,6 +16,7 @@ body {
 	margin-left: 10vw;
 	margin-top:3vw;
 	margin-bottom: 5vw;
+	overflow: hidden;
 }
 
 a {
@@ -36,14 +37,14 @@ a:hover {
 
 .divider {
 	width: 75%;
-    border-bottom: thick solid #ebebeb;
+    border-bottom: 3px solid #ebebeb;
     padding: 2% 0%;
     padding-top: 1%;
 }
 
 h1 {
 	color: #e79f6b;
-	font-size: 550%;
+	font-size: 450%;
 	font-weight: bold;
 	/*border: 3px solid black;*/
 	margin-bottom: -1.5%;
@@ -51,20 +52,20 @@ h1 {
 
 h2 {
 	color: #5b5858;
-	font-size: 300%;
+	font-size: 200%;
 	font-weight: bold;
 }
 
 .content {
-	font-size: 160%;
+	font-size: 130%;
 }
 #header {
-	padding-bottom: 1%;
+	/*padding-bottom: 1%;*/
 }
 
 a.form {
 	color: #7e9d8f;
-	font-size: 140%;
+	font-size: 110%;
 }
 
 a.form:hover {
@@ -76,12 +77,12 @@ a.form:hover {
 }
 
 #email {
-	font-size: 150%;
+	font-size: 120%;
 	/*text-align: right;*/
 	color: #9c9c9c;
 }
 #home {
-	font-size: 120%;
+	font-size: 100%;
 	font-weight: lighter;
 	color: #9c9c9c;
 	font-variant: small-caps;
@@ -93,7 +94,7 @@ a.form:hover {
 
 #gud-container {
 	/*border: 3px solid black;*/
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 	width: 75%;
 	align: right;	
 	overflow: hidden;
