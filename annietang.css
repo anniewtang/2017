@@ -76,7 +76,7 @@ a {
 }
 
 .index {
-	font-family: "Calisto MT", serif;
+	/*font-family: "Calibri", sans-serif;*/
 	color:#ffffff;
 	font-size: 8vw;
 	font-weight: bold;
@@ -93,17 +93,20 @@ a {
 
 .landing-bg {
     color: #fff;
-    background: -webkit-linear-gradient(120deg, #cf5260 50%, #ffffff 50%);
-    background: -o-linear-gradient(110deg, #cf5260 50%, #ffffff 50%);
-    background: -moz-linear-gradient(110deg, #cf5260 50%, #ffffff 50%);
-    background: linear-gradient(120deg, #cf5260 50%, #ffffff 50%);
+    background: -webkit-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
+    background: -o-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
+    background: -moz-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
+    background: linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
 }
 
 #landing-A {
 	position: absolute;
-	left: 5%;
-	line-height: 0vw;
-	width: 5.4vw;
+	left: -35%;
+	margin-top: -55%;
+	/*line-height: 0vw;*/
+	width: 100%;
+	/*border: 3px solid black;*/
+	z-index: 1;
 }
 #landing-T:hover{
 	font-color: black;
@@ -111,10 +114,12 @@ a {
 #landing-T {
 	position: absolute;
 	left:42%;
-	top: 0.4vw;
-	color: #cf5260;
-	/*line-height: 5.4vw;*/
-	width: 5.4vw;
+	margin-top: -15%;
+	width: 100%;
+	/*border: 3px solid black;*/
+	-ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
 }
 #landing-continue {
 	position: absolute;
@@ -179,14 +184,18 @@ a {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    line-height: 5vw;
+    /*line-height: 7vw;*/
 }
 .nav a {
 	/*border: 3px solid green;*/
-	font-size: 6vw;
+	font-size: 5vw;
 	color: #ffffff;	
+	/*text-transform: uppercase;*/
 	text-transform: lowercase;
-	font-family: "Calisto MT", serif;
+	font-weight: bold;
+	/*text-shadow: .25vw .25vw #b36f6f;*/
+	font-family: "Playfair", serif;
+	letter-spacing: .3vw;
 }
 .nav ul a:visited {
 	font-weight:bold;
@@ -215,6 +224,7 @@ a {
 
 #about-parent {
 	background-color: #b6a19e;
+	background-color: #ecad78;
 }
 
 .about-content {
@@ -265,7 +275,7 @@ a {
 }
 #about-links a {
 	font-weight: bold;
-	color: #612a23;
+	color: #e99b58;
 }
 
 #about-links a:hover {
@@ -288,7 +298,7 @@ a {
 	transform: translate(-50%, -50%);
 }
 .project-content {
-	font-family: "Calibri", sans-serif;
+	/*font-family: "Calibri", sans-serif;*/
 	font-size: 1.5vw;
 	/*border: 3px solid black;*/
 	width: 30vw;
