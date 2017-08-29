@@ -18,6 +18,8 @@ body {
 a {
 	text-decoration: none;
 	color: #6b8c97;
+	cursor: pointer; 
+	/*cursor: hand;*/
 }
 
 /*-------------GENERIC STYLING-------------*/
@@ -93,38 +95,31 @@ a {
 
 .landing-bg {
     color: #fff;
-    background: -webkit-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
-    background: -o-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
-    background: -moz-linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
-    background: linear-gradient(161deg, #cf5260 50%, #ffffff 50%);
+    background: -webkit-linear-gradient(180deg, #cf5260 50%, #ffffff 50%);
+    background: -o-linear-gradient(180deg, #cf5260 50%, #ffffff 50%);
+    background: -moz-linear-gradient(180deg, #cf5260 50%, #ffffff 50%);
+    background: linear-gradient(180deg, #cf5260 50%, #ffffff 50%);
+}
+
+.landing-text {
+	font-size: 8vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Lato", "Calibri", sans-serif;
+	letter-spacing: .5vw;
 }
 
 #landing-A {
 	position: absolute;
-	left: -36%;
-	margin-top: -55%;
-	margin-top: -57.5%;
-	/*line-height: 0vw;*/
-	width: 100%;
-	/*border: 3px solid black;*/
-	
-	-ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
+	left: -46%;
+	margin-top: -49%;
 }
-#landing-T:hover{
-	font-color: black;
-}
+
 #landing-T {
-	z-index: 1;
 	position: absolute;
-	left:42%;
-	margin-top: -15%;
-	width: 100%;
-	/*border: 3px solid black;*/
-	-ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
+	left:-34%;
+	margin-top: -13.8%;
+	color: #cf5260;
 }
 #landing-continue {
 	position: absolute;
@@ -193,14 +188,16 @@ a {
 }
 .nav a {
 	/*border: 3px solid green;*/
-	font-size: 5vw;
+	font-size: 4vw;
 	color: #ffffff;	
 	/*text-transform: uppercase;*/
 	text-transform: lowercase;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	/*text-shadow: .25vw .25vw #b36f6f;*/
 	font-family: "Playfair", serif;
+	font-family: "Verdana", "Gill Sans", "Calibri", sans-serif;
 	letter-spacing: .3vw;
+	cursor: pointer;
 }
 .nav ul a:visited {
 	font-weight:bold;
@@ -209,10 +206,11 @@ a {
 
 .nav ul a:hover {
 	font-style: italic;
+	cursor: pointer;
 }
 
 .nav ul a:active {
-	font-weight:bold;
+	font-weight: lighter;
 	font-style: italic;
 }
 
