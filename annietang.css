@@ -101,17 +101,22 @@ a {
 
 #landing-A {
 	position: absolute;
-	left: -35%;
+	left: -36%;
 	margin-top: -55%;
+	margin-top: -57.5%;
 	/*line-height: 0vw;*/
 	width: 100%;
 	/*border: 3px solid black;*/
-	z-index: 1;
+	
+	-ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
 }
 #landing-T:hover{
 	font-color: black;
 }
 #landing-T {
+	z-index: 1;
 	position: absolute;
 	left:42%;
 	margin-top: -15%;
