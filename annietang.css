@@ -187,13 +187,10 @@ a {
     /*line-height: 7vw;*/
 }
 .nav a {
-	/*border: 3px solid green;*/
 	font-size: 4vw;
 	color: #ffffff;	
-	/*text-transform: uppercase;*/
 	text-transform: lowercase;
-	/*font-weight: bold;*/
-	/*text-shadow: .25vw .25vw #b36f6f;*/
+	text-shadow: .25vw .25vw 6px #808181;
 	font-family: "Playfair", serif;
 	font-family: "Verdana", "Gill Sans", "Calibri", sans-serif;
 	letter-spacing: .3vw;
@@ -226,8 +223,9 @@ a {
 /*-------------ABOUT STYLING-------------*/
 
 #about-parent {
-	background-color: #b6a19e;
-	background-color: #ecad78;
+	background-color: #cacfd0;
+	background-color: #ebb8a6;
+	/*background-color: #ecad78;*/
 }
 
 .about-content {
@@ -254,6 +252,8 @@ a {
 
 #about-me {
 	position: absolute;
+	margin-top: 2%;
+	left: -4%;
 }
 
 #about-name {
@@ -265,20 +265,20 @@ a {
 #links-intro {
 	position: absolute;
 	margin-top: 20.8%;
-	right: -1%;
+	right: -3%;
 	/*display: none;*/
 }
 
 #about-links {
 	position: absolute;
-	right: -1%;
+	right: -3%;
 	text-align: right;
 	margin-top: 29.5%;
 	/*display: none;*/
 }
 #about-links a {
 	font-weight: bold;
-	color: #e99b58;
+	color: #cc6771;
 }
 
 #about-links a:hover {
