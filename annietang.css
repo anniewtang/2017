@@ -369,6 +369,7 @@ a {
 #slides {
 	font-size: 1.8vw;
 	color: #f5aa0f;
+	text-shadow: .10vw .10vw 2px #c9cad2;
 }
 #slides:hover {
 	color:#f5500f;
