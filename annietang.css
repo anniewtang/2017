@@ -6,6 +6,10 @@
 	padding: 0px;
 	max-width:100%;
 }
+*:focus {
+	outline: 0!important;
+	outline: none!important;
+}
 body {
 	font-family: "Calibri", sans-serif;
 	background-color:#ffffff;
@@ -15,10 +19,6 @@ body {
 
     -webkit-tap-highlight-color: transparent;
 }
-
-/*:focus {
-	outline: none !important;
-}*/
 
 a {
 	text-decoration: none;
