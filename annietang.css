@@ -331,6 +331,7 @@ a {
 #resume-link {
 	color: #3c4b6a;
 	font-style: italic;
+	text-decoration: underline;
 }
 
 #resume-link:hover {
@@ -375,6 +376,7 @@ a {
 	font-size: 1.8vw;
 	color: #f5aa0f;
 	text-shadow: .10vw .10vw 2px #c9cad2;
+	text-decoration: underline;
 }
 #slides:hover {
 	color:#f5500f;
