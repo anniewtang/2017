@@ -284,6 +284,7 @@ a {
 #about-links a {
 	font-weight: bold;
 	color: #cc6771;
+	/*text-decoration: underline;*/
 }
 
 #about-links a:hover {
