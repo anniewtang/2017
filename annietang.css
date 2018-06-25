@@ -56,13 +56,13 @@ a {
 	position: absolute;
 	top: 51%;
 	left: 29.9%;
-	left: 41.7%;
+	left: 43.4%;
 	transform: translate(-50%, -50%);
 }
 
 #closing {
-	font-family: "open sans", sans-serif;
-	font-size: 1.2vw;
+	/* font-family: "open sans", sans-serif; */
+	/* font-size: 1.2vw; */
 	/* font-weight: bold; */
 	/* top: 5%; */
 	/*border: 3px solid green;*/
