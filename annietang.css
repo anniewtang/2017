@@ -23,8 +23,59 @@ body {
 a {
 	text-decoration: none;
 	color: #6b8c97;
-	cursor: pointer; 
+	cursor: pointer;
 	/*cursor: hand;*/
+}
+
+
+/*-------------TEMPORARY STYLING-------------*/
+
+#opening {
+	font-family: "open sans", sans-serif;
+	/* color:#ffffff; */
+	font-size: 2.5vw;
+	font-weight: bold;
+	top: 5%;
+	/*border: 3px solid green;*/
+}
+
+#title {
+	/* border: 3px solid green; */
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+
+#memo {
+	font-size: 1.5vw;
+}
+
+#goodbye {
+	/* border: 3px solid green; */
+	position: absolute;
+	top: 51%;
+	left: 29.9%;
+	left: 41.7%;
+	transform: translate(-50%, -50%);
+}
+
+#closing {
+	font-family: "open sans", sans-serif;
+	font-size: 1.2vw;
+	/* font-weight: bold; */
+	/* top: 5%; */
+	/*border: 3px solid green;*/
+}
+
+a {
+	/* font-weight: bold; */
+	color: #4ba9aa;
+	/* text-decoration: underline; */
+}
+
+a:hover {
+	color: #bea4a0;
 }
 
 /*-------------GENERIC STYLING-------------*/
@@ -41,9 +92,9 @@ a {
 	overflow: hidden;
 }
 
-.box {
-	/*border: 3px solid green;*/
-	width: 16vw;
+.middle {
+	/* border: 3px solid green; */
+	/* width: 10vw; */
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -83,12 +134,14 @@ a {
 }
 
 .index {
-	/*font-family: "Calibri", sans-serif;*/
-	color:#ffffff;
-	font-size: 8vw;
+	font-family: "Calibri", sans-serif;
+	/* color:#ffffff; */
+	font-size: 2.5vw;
 	font-weight: bold;
+	top: 5%;
 	/*border: 3px solid green;*/
 }
+
 /*
 .index:hover {
 	color: #000000;
@@ -193,7 +246,7 @@ a {
 }
 .nav a {
 	font-size: 4vw;
-	color: #ffffff;	
+	color: #ffffff;
 	text-transform: lowercase;
 	text-shadow: .25vw .25vw 6px #808181;
 	font-family: "Playfair", serif;
