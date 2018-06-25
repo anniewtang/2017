@@ -1,7 +1,6 @@
 # anniewtang.github.io
-— a portfolio with cs61 teaching material
+— a portfolio with cs61a + cs61b teaching material
 
 todo: <br>
-1.) make website more responsive <br>
-2.) finish projects page <br>
-3.) add animations/transitions between pages <br>
+1.) overhaul website completely<br>
+2.) make things responsive + cleaner
