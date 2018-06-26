@@ -51,21 +51,12 @@ a {
 	font-size: 1.5vw;
 }
 
-#goodbye {
-	/* border: 3px solid green; */
-	position: absolute;
-	top: 51%;
-	left: 29.9%;
-	left: 43.4%;
-	transform: translate(-50%, -50%);
+#links {
+	font-size: 1.26vw;
 }
 
 #closing {
-	/* font-family: "open sans", sans-serif; */
-	/* font-size: 1.2vw; */
-	/* font-weight: bold; */
-	/* top: 5%; */
-	/*border: 3px solid green;*/
+	font-size: 1.35vw;
 }
 
 a {
